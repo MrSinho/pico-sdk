@@ -3,7 +3,7 @@ if (NOT TARGET pico_standard_link)
 
     target_sources(pico_standard_link INTERFACE
         ${CMAKE_CURRENT_LIST_DIR}/crt0.S
-        ${CMAKE_CURRENT_LIST_DIR}/new_delete.cpp
+        #${CMAKE_CURRENT_LIST_DIR}/new_delete.cpp
         ${CMAKE_CURRENT_LIST_DIR}/binary_info.c
     )
 
